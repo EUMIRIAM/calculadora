@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+.tabela {
+    background-color: black;
+    /* Centralizar na vertical e na horizontal */
+    position: absolute;
+    padding: 8px;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+#botao-zero{
+    width: 100%;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 999999px;
+    padding: 0;
+    border: 0;
+    color: white;
+    background-color: #424242;
+}
+button:hover{
+ background-color: #d3d3d3;   
+}
+td{
+    width: 50px;
+    padding: 0;
+}
+input{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+.cor-botao-cinza{
+    background-color: #bdbebd;
+    color: black;
+}
+.cor-botao-cinza:hover{
+    background-color: white;
+    color: black;
+}
+.cor-botao-amarelo{
+    background-color: #ffb11b;
+}
+.cor-botao-amarelo:hover{
+    background-color: white;
+    color: #ffb11b;
+}
